@@ -3,13 +3,13 @@ import {createStackNavigator} from 'react-navigation-stack';
 import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 // import Scanner from './source/Scanner';
-import Location_name from './source/Location_name';
+// import Location_name from './source/Location_name';
 // import Location_name from 'react-native-safe-area-view';
-// import Image_upload from './source/Image_upload';
+import Image_upload from './source/Image_upload';
 // import Layout from './source/Layout';
 const MainNavigator = createStackNavigator({
   // Animbutton:{screen:Animbutton},
-  Location_name: {screen: Location_name},
+  Image_upload: {screen: Image_upload},
   // Layout:{screen:Layout}
 
 

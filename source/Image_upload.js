@@ -204,46 +204,12 @@ const styles = StyleSheet.create({
     textShadowRadius: 5,
     fontWeight:'bold',
   },
-  container1:{
-    borderRadius: 10,
-    top:160,
-   
-    elevation: 15
-  },
  
-  ImageContainer: {
-    borderRadius: 10,
-    width: 250,
-    height: 250,
-    borderColor: '#a1c4fd',
-    borderWidth: 1 / PixelRatio.get(),
-    justifyContent: 'center',
-    alignItems: 'center',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 3 },
-    shadowOpacity: 0.5,
-    shadowRadius: 5,  
-    elevation: 5
-    // elevation: 2,
-    // top:80,
-    // backgroundColor: '#CDDC39',
  
-  },
  
-  TextInputStyle: {
- 
-    textAlign: 'center',
-    height: 40,
-    width: '80%',
-    borderRadius: 10,
-    borderWidth: 1,
-    borderColor: '#028b53',
-    marginTop: 20,
-    fontWeight:'bold'
-  },
  
   button1: {
- top:180,
+      top:150,
     width: '35%',
     // borderRadius:190,
     backgroundColor: '#a1c4fd',
@@ -264,34 +230,14 @@ const styles = StyleSheet.create({
     borderRadius: 4,
     borderColor: "rgba(0, 0, 0, 0.1)",
   },
-  // modalContent: {
-  //   backgroundColor: "white",
-  //   padding: 22,
-  //   justifyContent: "center",
-  //   alignItems: "center",
-  //   borderRadius: 4,
-  //   borderColor: "rgba(0, 0, 0, 0.1)",
-  // },
+  
   bottomModal: {
     justifyContent: "flex-end",
     margin: 0,
     height:60,
   },
-  scrollableModal: {
-    height: 300,
-  },
-  scrollableModalContent1: {
-    height: 200,
-    backgroundColor: "orange",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  scrollableModalContent2: {
-    height: 200,
-    backgroundColor: "lightgreen",
-    alignItems: "center",
-    justifyContent: "center",
-  },
+ 
+ 
  
   TextStyle: {
     color: '#fff',
