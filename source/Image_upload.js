@@ -197,22 +197,12 @@ const styles = StyleSheet.create({
     borderColor: "rgba(0, 0, 0, 0.1)",
     height:300
   },
-  text1:
-  {
-    textShadowColor: 'gray',
-    textShadowOffset: { width: 1, height: 2 },
-    textShadowRadius: 5,
-    fontWeight:'bold',
-  },
- 
- 
- 
- 
+
   button1: {
       top:150,
     width: '35%',
     // borderRadius:190,
-    backgroundColor: '#a1c4fd',
+    backgroundColor: 'palevioletred',
     borderRadius: 50,
     marginTop: 20,
     shadowColor: '#000',
@@ -222,7 +212,7 @@ const styles = StyleSheet.create({
     elevation: 10
   },
   button: {
-    backgroundColor: "lightblue",
+    backgroundColor: "palevioletred",
     padding: 12,
     margin: 16,
     justifyContent: "center",
