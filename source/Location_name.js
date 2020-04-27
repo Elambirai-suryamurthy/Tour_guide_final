@@ -26,12 +26,12 @@ componentDidMount()
         timeout: 15000,
     })
     .then(location => {
-        let myApiKey = "AIzaSyAW8_NXr6eDh267yQ1aFSRT3pqryeMElgE";
+        let myApiKey = "AIzaSyD7f0wcWkJR0gEvUYDxJMZwJ_y92cvJaNI";
 
     fetch('https://maps.googleapis.com/maps/api/geocode/json?address=' + location.latitude + ',' + location.longitude + '&key=' + myApiKey)
         .then((response) => response.json())
         .then((responseJson) => {
-            alert(JSON.stringify(location.latitude+"sdas"+location.longitude));
+            console.log(JSON.stringify(responseJson));
     })
     .catch(error => {
         const { code, message } = error;
