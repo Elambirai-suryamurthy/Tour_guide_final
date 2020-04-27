@@ -1,7 +1,6 @@
 # Tour_guide_final
-This project help us to know each and every tourist palces 
-# Tour_guide_final
-This project help us to know each and every tourist palces 
+This project help us to know each and every tourist places 
+
 installation
 
 Image Picker library
